@@ -1,0 +1,47 @@
+version: 1
+
+project:
+  title: Mekanika Kuantum Minimalis 2.0
+  description: Buku daring untuk seri kuliah Mekanika Kuantum Minimalis 2.0
+  authors:
+    - name: Ahmad R. T. Nugraha
+      affiliation: brin
+      email: art.nugraha@gmail.com
+      corresponding: true
+      orcid: 0000-0000-0000-0000
+    - name: Hendry M. Lim
+      affiliation: nus
+    - name: M Anin Nabail Azhiim
+      affiliation: nus
+    - name: Nabilla S. Bachtiar
+      affiliation: itb
+  affiliations:
+    - id: brin
+      name: Badan Riset dan Inovasi Nasional
+      address: Indonesia
+    - id: nus
+      name: National University of Singapore
+      address: Singapore
+    - id: itb
+      name: Institut Teknologi Bandung
+      address: Indonesia
+  keywords:
+    - mekanika kuantum
+    - fisika kuantum
+    - sains fundamental
+  toc:
+    - file: intro.md
+    - file: chapters/01-statistika.md
+
+site:
+  title: Mekanika Kuantum Minimalis 2.0
+  template: book-theme
+  options:
+    logo_text: BRIN-Q Open TextBook
+    logo_alt: BRIN-Q Open TextBook
+    logo_url: https://brin-q.github.io/qm/
+    favicon: favicon.png
+    hide_authors: true
+  parts:
+    primary_sidebar_footer: _site/primary_sidebar_footer.md
+    footer: _site/footer.md
