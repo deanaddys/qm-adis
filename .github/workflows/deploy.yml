@@ -40,8 +40,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build static HTML
+        env:
+          BASE_URL: /qm
         run: |
-          BASE_URL=/qm jupyter book build --html
+          jupyter book build --html
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
