@@ -1,0 +1,9 @@
+[user]
+	name = deanaddys
+	email = addystinable2@gmail.com
+[credential]
+	helper = store
+[core]
+        autocrlf = input
+[init]
+        defaultBranch = main

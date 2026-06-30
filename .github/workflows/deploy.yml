@@ -41,7 +41,7 @@ jobs:
 
       - name: Build static HTML
         env:
-          BASE_URL: /qm
+          BASE_URL: /qm-adis
         run: |
           jupyter book build --html
 
